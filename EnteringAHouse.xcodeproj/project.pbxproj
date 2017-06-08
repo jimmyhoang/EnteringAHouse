@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF4972411EE8C67B00CFD44D /* back_porch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF4972321EE8C57D00CFD44D /* back_porch.jpg */; };
+		FF4972421EE8C67B00CFD44D /* bathroom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF4972331EE8C57D00CFD44D /* bathroom.jpg */; };
+		FF4972431EE8C67B00CFD44D /* bedroom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF4972341EE8C57D00CFD44D /* bedroom.jpg */; };
+		FF4972441EE8C67B00CFD44D /* coat_room.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF4972351EE8C57D00CFD44D /* coat_room.jpg */; };
+		FF4972451EE8C67B00CFD44D /* cursed_chalice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF4972361EE8C57D00CFD44D /* cursed_chalice.jpg */; };
+		FF4972461EE8C67B00CFD44D /* dining_room.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF4972371EE8C57D00CFD44D /* dining_room.jpg */; };
+		FF4972471EE8C67B00CFD44D /* dungeon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF4972381EE8C57D00CFD44D /* dungeon.jpg */; };
+		FF4972481EE8C67B00CFD44D /* front_door.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF4972391EE8C57D00CFD44D /* front_door.jpg */; };
+		FF4972491EE8C67B00CFD44D /* generator.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF49723A1EE8C57D00CFD44D /* generator.jpg */; };
+		FF49724A1EE8C67B00CFD44D /* kitchen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF49723B1EE8C57D00CFD44D /* kitchen.jpg */; };
+		FF49724B1EE8C67B00CFD44D /* labratory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF49723C1EE8C57D00CFD44D /* labratory.jpg */; };
+		FF49724C1EE8C67B00CFD44D /* library.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF49723D1EE8C57D00CFD44D /* library.jpg */; };
+		FF49724D1EE8C67B00CFD44D /* mysterious_lake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF49723E1EE8C57D00CFD44D /* mysterious_lake.jpg */; };
+		FF49724E1EE8C67B00CFD44D /* secret_passage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF49723F1EE8C57D00CFD44D /* secret_passage.jpg */; };
+		FF49724F1EE8C67B00CFD44D /* stairs_up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF4972401EE8C57D00CFD44D /* stairs_up.jpg */; };
+		FF4972521EE8C84700CFD44D /* EnterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4972511EE8C84700CFD44D /* EnterViewController.m */; };
+		FF4BC81B1EE8B84B004A74D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4BC81A1EE8B84B004A74D7 /* main.m */; };
+		FF4BC81E1EE8B84B004A74D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4BC81D1EE8B84B004A74D7 /* AppDelegate.m */; };
+		FF4BC8211EE8B84B004A74D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4BC8201EE8B84B004A74D7 /* ViewController.m */; };
+		FF4BC8241EE8B84B004A74D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4BC8221EE8B84B004A74D7 /* Main.storyboard */; };
+		FF4BC8261EE8B84B004A74D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4BC8251EE8B84B004A74D7 /* Assets.xcassets */; };
+		FF4BC8291EE8B84B004A74D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4BC8271EE8B84B004A74D7 /* LaunchScreen.storyboard */; };
+		FF4BC8341EE8B84B004A74D7 /* EnteringAHouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4BC8331EE8B84B004A74D7 /* EnteringAHouseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF4BC8301EE8B84B004A74D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF4BC80E1EE8B84B004A74D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF4BC8151EE8B84B004A74D7;
+			remoteInfo = EnteringAHouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF4972321EE8C57D00CFD44D /* back_porch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back_porch.jpg; sourceTree = "<group>"; };
+		FF4972331EE8C57D00CFD44D /* bathroom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bathroom.jpg; sourceTree = "<group>"; };
+		FF4972341EE8C57D00CFD44D /* bedroom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bedroom.jpg; sourceTree = "<group>"; };
+		FF4972351EE8C57D00CFD44D /* coat_room.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coat_room.jpg; sourceTree = "<group>"; };
+		FF4972361EE8C57D00CFD44D /* cursed_chalice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cursed_chalice.jpg; sourceTree = "<group>"; };
+		FF4972371EE8C57D00CFD44D /* dining_room.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dining_room.jpg; sourceTree = "<group>"; };
+		FF4972381EE8C57D00CFD44D /* dungeon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dungeon.jpg; sourceTree = "<group>"; };
+		FF4972391EE8C57D00CFD44D /* front_door.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = front_door.jpg; sourceTree = "<group>"; };
+		FF49723A1EE8C57D00CFD44D /* generator.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = generator.jpg; sourceTree = "<group>"; };
+		FF49723B1EE8C57D00CFD44D /* kitchen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitchen.jpg; sourceTree = "<group>"; };
+		FF49723C1EE8C57D00CFD44D /* labratory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = labratory.jpg; sourceTree = "<group>"; };
+		FF49723D1EE8C57D00CFD44D /* library.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = library.jpg; sourceTree = "<group>"; };
+		FF49723E1EE8C57D00CFD44D /* mysterious_lake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mysterious_lake.jpg; sourceTree = "<group>"; };
+		FF49723F1EE8C57D00CFD44D /* secret_passage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secret_passage.jpg; sourceTree = "<group>"; };
+		FF4972401EE8C57D00CFD44D /* stairs_up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stairs_up.jpg; sourceTree = "<group>"; };
+		FF4972501EE8C84700CFD44D /* EnterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterViewController.h; sourceTree = "<group>"; };
+		FF4972511EE8C84700CFD44D /* EnterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterViewController.m; sourceTree = "<group>"; };
+		FF4BC8161EE8B84B004A74D7 /* EnteringAHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnteringAHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4BC81A1EE8B84B004A74D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF4BC81C1EE8B84B004A74D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF4BC81D1EE8B84B004A74D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF4BC81F1EE8B84B004A74D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF4BC8201EE8B84B004A74D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF4BC8231EE8B84B004A74D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF4BC8251EE8B84B004A74D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF4BC8281EE8B84B004A74D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF4BC82A1EE8B84B004A74D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4BC82F1EE8B84B004A74D7 /* EnteringAHouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnteringAHouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4BC8331EE8B84B004A74D7 /* EnteringAHouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnteringAHouseTests.m; sourceTree = "<group>"; };
+		FF4BC8351EE8B84B004A74D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF4BC8131EE8B84B004A74D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4BC82C1EE8B84B004A74D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF4972311EE8C57D00CFD44D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FF4972321EE8C57D00CFD44D /* back_porch.jpg */,
+				FF4972331EE8C57D00CFD44D /* bathroom.jpg */,
+				FF4972341EE8C57D00CFD44D /* bedroom.jpg */,
+				FF4972351EE8C57D00CFD44D /* coat_room.jpg */,
+				FF4972361EE8C57D00CFD44D /* cursed_chalice.jpg */,
+				FF4972371EE8C57D00CFD44D /* dining_room.jpg */,
+				FF4972381EE8C57D00CFD44D /* dungeon.jpg */,
+				FF4972391EE8C57D00CFD44D /* front_door.jpg */,
+				FF49723A1EE8C57D00CFD44D /* generator.jpg */,
+				FF49723B1EE8C57D00CFD44D /* kitchen.jpg */,
+				FF49723C1EE8C57D00CFD44D /* labratory.jpg */,
+				FF49723D1EE8C57D00CFD44D /* library.jpg */,
+				FF49723E1EE8C57D00CFD44D /* mysterious_lake.jpg */,
+				FF49723F1EE8C57D00CFD44D /* secret_passage.jpg */,
+				FF4972401EE8C57D00CFD44D /* stairs_up.jpg */,
+			);
+			name = images;
+			path = EnteringAHouse/images;
+			sourceTree = "<group>";
+		};
+		FF4BC80D1EE8B84B004A74D7 = {
+			isa = PBXGroup;
+			children = (
+				FF4972311EE8C57D00CFD44D /* images */,
+				FF4BC8181EE8B84B004A74D7 /* EnteringAHouse */,
+				FF4BC8321EE8B84B004A74D7 /* EnteringAHouseTests */,
+				FF4BC8171EE8B84B004A74D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF4BC8171EE8B84B004A74D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF4BC8161EE8B84B004A74D7 /* EnteringAHouse.app */,
+				FF4BC82F1EE8B84B004A74D7 /* EnteringAHouseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF4BC8181EE8B84B004A74D7 /* EnteringAHouse */ = {
+			isa = PBXGroup;
+			children = (
+				FF4BC81C1EE8B84B004A74D7 /* AppDelegate.h */,
+				FF4BC81D1EE8B84B004A74D7 /* AppDelegate.m */,
+				FF4BC81F1EE8B84B004A74D7 /* ViewController.h */,
+				FF4BC8201EE8B84B004A74D7 /* ViewController.m */,
+				FF4972501EE8C84700CFD44D /* EnterViewController.h */,
+				FF4972511EE8C84700CFD44D /* EnterViewController.m */,
+				FF4BC8221EE8B84B004A74D7 /* Main.storyboard */,
+				FF4BC8251EE8B84B004A74D7 /* Assets.xcassets */,
+				FF4BC8271EE8B84B004A74D7 /* LaunchScreen.storyboard */,
+				FF4BC82A1EE8B84B004A74D7 /* Info.plist */,
+				FF4BC8191EE8B84B004A74D7 /* Supporting Files */,
+			);
+			path = EnteringAHouse;
+			sourceTree = "<group>";
+		};
+		FF4BC8191EE8B84B004A74D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF4BC81A1EE8B84B004A74D7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF4BC8321EE8B84B004A74D7 /* EnteringAHouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF4BC8331EE8B84B004A74D7 /* EnteringAHouseTests.m */,
+				FF4BC8351EE8B84B004A74D7 /* Info.plist */,
+			);
+			path = EnteringAHouseTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF4BC8151EE8B84B004A74D7 /* EnteringAHouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4BC8381EE8B84B004A74D7 /* Build configuration list for PBXNativeTarget "EnteringAHouse" */;
+			buildPhases = (
+				FF4BC8121EE8B84B004A74D7 /* Sources */,
+				FF4BC8131EE8B84B004A74D7 /* Frameworks */,
+				FF4BC8141EE8B84B004A74D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnteringAHouse;
+			productName = EnteringAHouse;
+			productReference = FF4BC8161EE8B84B004A74D7 /* EnteringAHouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF4BC82E1EE8B84B004A74D7 /* EnteringAHouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4BC83B1EE8B84B004A74D7 /* Build configuration list for PBXNativeTarget "EnteringAHouseTests" */;
+			buildPhases = (
+				FF4BC82B1EE8B84B004A74D7 /* Sources */,
+				FF4BC82C1EE8B84B004A74D7 /* Frameworks */,
+				FF4BC82D1EE8B84B004A74D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF4BC8311EE8B84B004A74D7 /* PBXTargetDependency */,
+			);
+			name = EnteringAHouseTests;
+			productName = EnteringAHouseTests;
+			productReference = FF4BC82F1EE8B84B004A74D7 /* EnteringAHouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF4BC80E1EE8B84B004A74D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Jimmy Hoang";
+				TargetAttributes = {
+					FF4BC8151EE8B84B004A74D7 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					FF4BC82E1EE8B84B004A74D7 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF4BC8151EE8B84B004A74D7;
+					};
+				};
+			};
+			buildConfigurationList = FF4BC8111EE8B84B004A74D7 /* Build configuration list for PBXProject "EnteringAHouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF4BC80D1EE8B84B004A74D7;
+			productRefGroup = FF4BC8171EE8B84B004A74D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF4BC8151EE8B84B004A74D7 /* EnteringAHouse */,
+				FF4BC82E1EE8B84B004A74D7 /* EnteringAHouseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF4BC8141EE8B84B004A74D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4972411EE8C67B00CFD44D /* back_porch.jpg in Resources */,
+				FF4972421EE8C67B00CFD44D /* bathroom.jpg in Resources */,
+				FF4972431EE8C67B00CFD44D /* bedroom.jpg in Resources */,
+				FF4972441EE8C67B00CFD44D /* coat_room.jpg in Resources */,
+				FF4972451EE8C67B00CFD44D /* cursed_chalice.jpg in Resources */,
+				FF4972461EE8C67B00CFD44D /* dining_room.jpg in Resources */,
+				FF4972471EE8C67B00CFD44D /* dungeon.jpg in Resources */,
+				FF4972481EE8C67B00CFD44D /* front_door.jpg in Resources */,
+				FF4972491EE8C67B00CFD44D /* generator.jpg in Resources */,
+				FF49724A1EE8C67B00CFD44D /* kitchen.jpg in Resources */,
+				FF49724B1EE8C67B00CFD44D /* labratory.jpg in Resources */,
+				FF49724C1EE8C67B00CFD44D /* library.jpg in Resources */,
+				FF49724D1EE8C67B00CFD44D /* mysterious_lake.jpg in Resources */,
+				FF49724E1EE8C67B00CFD44D /* secret_passage.jpg in Resources */,
+				FF49724F1EE8C67B00CFD44D /* stairs_up.jpg in Resources */,
+				FF4BC8291EE8B84B004A74D7 /* LaunchScreen.storyboard in Resources */,
+				FF4BC8261EE8B84B004A74D7 /* Assets.xcassets in Resources */,
+				FF4BC8241EE8B84B004A74D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4BC82D1EE8B84B004A74D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF4BC8121EE8B84B004A74D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4BC8211EE8B84B004A74D7 /* ViewController.m in Sources */,
+				FF4972521EE8C84700CFD44D /* EnterViewController.m in Sources */,
+				FF4BC81E1EE8B84B004A74D7 /* AppDelegate.m in Sources */,
+				FF4BC81B1EE8B84B004A74D7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4BC82B1EE8B84B004A74D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4BC8341EE8B84B004A74D7 /* EnteringAHouseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF4BC8311EE8B84B004A74D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF4BC8151EE8B84B004A74D7 /* EnteringAHouse */;
+			targetProxy = FF4BC8301EE8B84B004A74D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF4BC8221EE8B84B004A74D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4BC8231EE8B84B004A74D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF4BC8271EE8B84B004A74D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4BC8281EE8B84B004A74D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF4BC8361EE8B84B004A74D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF4BC8371EE8B84B004A74D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF4BC8391EE8B84B004A74D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnteringAHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.EnteringAHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF4BC83A1EE8B84B004A74D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnteringAHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.EnteringAHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF4BC83C1EE8B84B004A74D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EnteringAHouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.EnteringAHouseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnteringAHouse.app/EnteringAHouse";
+			};
+			name = Debug;
+		};
+		FF4BC83D1EE8B84B004A74D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EnteringAHouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.EnteringAHouseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnteringAHouse.app/EnteringAHouse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF4BC8111EE8B84B004A74D7 /* Build configuration list for PBXProject "EnteringAHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4BC8361EE8B84B004A74D7 /* Debug */,
+				FF4BC8371EE8B84B004A74D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4BC8381EE8B84B004A74D7 /* Build configuration list for PBXNativeTarget "EnteringAHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4BC8391EE8B84B004A74D7 /* Debug */,
+				FF4BC83A1EE8B84B004A74D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4BC83B1EE8B84B004A74D7 /* Build configuration list for PBXNativeTarget "EnteringAHouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4BC83C1EE8B84B004A74D7 /* Debug */,
+				FF4BC83D1EE8B84B004A74D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF4BC80E1EE8B84B004A74D7 /* Project object */;
+}
